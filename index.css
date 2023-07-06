@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1000px; /* Increased maximum width */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-container {
+    width: 40%; /* Increased width */
+    margin-right: 20px; /* Added right margin */
+  }
+  
+  .list-container {
+    width: 50%; /* Increased width */
+    padding-left: 20px; /* Added left padding */
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #studentList {
+    padding: 10px;
+    font-size: 18px;
+    min-height: 300px; /* Increased minimum height */
+    max-height: 800px; /* Increased maximum height */
+    overflow-y: auto;
+    background-color: #ffff38;
+    border-radius: 4px;
+  }
+  
+  .student-record {
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    padding: 8px;
+  }
+  
+  .student-record strong {
+    color: white;
+  }

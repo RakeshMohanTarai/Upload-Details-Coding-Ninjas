@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Database</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="form-container">
+      <h1>Add Student Data</h1>
+      <form id="studentForm">
+        <input type="text" id="rollNumberInput" placeholder="Roll No." required>
+        <input type="text" id="nameInput" placeholder="Name" required>
+        <input type="text" id="marksInput" placeholder="Marks" required>
+        <button type="submit">Add Details</button>
+      </form>
+    </div>
+    <div class="list-container">
+      <h2>Student List -</h2>
+      <div id="studentList"></div>
+    </div>
+  </div>
+
+</body>
+<script src="index.js"></script>
+</html>
